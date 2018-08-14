@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd88a381-91aa-4ceb-9dc0-95fc85df4f70" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/models.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/user/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/certbot/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/certbot/scripts/run-certbot.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/mongo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/nginx/scripts/build-nginx.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/nginx/scripts/run-openssl.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/nginx/sites/node-https.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/nginx/sites/node.template" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/node/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/node/scripts/run-nodock.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/redis/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_compose/redis/redis.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jwt_middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/locale_middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/maile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/obtain_token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/passport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/potty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/_redis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/i18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/locales/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/locales/fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings/urls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/cv.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/ahmad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/cc-bg-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/images/staticmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/core/jquery.3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/now-ui-kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/plugins/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/plugins/bootstrap-switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/plugins/jquery.sharrre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/js/plugins/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statics/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1679333168">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="ejs" value="3" />
+          <entry key="env" value="4" />
+          <entry key="html" value="1" />
+          <entry key="js" value="12" />
+          <entry key="md" value="3" />
+          <entry key="pug" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="EJS" value="3" />
+          <entry key="HTML" value="1" />
+          <entry key="Jade" value="1" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="3" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="ejs" value="18" />
+          <entry key="env" value="210" />
+          <entry key="js" value="323" />
+          <entry key="md" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key=".env file" value="198" />
+          <entry key="EJS" value="18" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="322" />
+          <entry key="Markdown" value="27" />
+          <entry key="PLAIN_TEXT" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/common/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="108" column="267" selection-start-line="108" selection-start-column="267" selection-end-line="108" selection-end-column="267" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/settings/settings.js" />
+        <option value="$PROJECT_DIR$/test/main.js" />
+        <option value="$PROJECT_DIR$/settings/urls.js" />
+        <option value="$PROJECT_DIR$/app/common/messages.js" />
+        <option value="$PROJECT_DIR$/env" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/common/models.js" />
+        <option value="$PROJECT_DIR$/app/common/routes.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docker_compose/README.md" />
+        <option value="$PROJECT_DIR$/templates/common/index.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="docker_compose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="settings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="statics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-personal-resume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-personal-resume" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.8.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../resume-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/common" />
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/statics" />
+      <recent name="$PROJECT_DIR$/app/common" />
+      <recent name="$PROJECT_DIR$/templates/common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd88a381-91aa-4ceb-9dc0-95fc85df4f70" name="Default Changelist" comment="" />
+      <created>1534253309951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534253309951</updated>
+      <workItem from="1534253311333" duration="535000" />
+      <workItem from="1534254053263" duration="3108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3643000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1366" height="741" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/user/routes.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="334" column="11" selection-start-line="334" selection-start-column="11" selection-end-line="334" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/aos.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings/urls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/maile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/user/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/common/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker_compose/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="60">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="75">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/common/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="108" column="267" selection-start-line="108" selection-start-column="267" selection-end-line="108" selection-end-column="267" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
